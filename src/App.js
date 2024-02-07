@@ -41,6 +41,8 @@ function App() {
       }
       //do save the image in the database now
       alert(imageUrl);
+      setIsLoading(false)
+      setProfileImage('')
     } catch (error) {
       console.log(error);
       setIsLoading(false)
